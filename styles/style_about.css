@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair_Display;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    width: 100%;  
+    max-width: 1920px;
+    margin: 0 auto;
+}
+a{
+    outline: none;
+    text-decoration: none; 
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: 0.26em;
+}
+/*-------header начало-------*/
+.header{
+    background: url(../img/header4.png) no-repeat;
+    width: 100%;
+    height: 637px;
+}
+
+.header .logo{
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 92px;
+}
+.header .logo .logo1{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: white;
+}
+.header .logo .logo2{
+    font-family: Playfair_Display;
+    font-size: 32px;
+    color: white;
+    letter-spacing: 0.14em;
+}
+.header ul{
+    display: flex;
+    gap: 88px;
+    padding-top: 71px;
+}
+.header ul li{
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: 0.26em;
+}
+.menu{
+    background: #393939;
+    height: 157px;
+}
+.menu, .menu1{
+    display: flex;
+}
+.menu1 .button{
+    margin-top: 47px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    padding: 25px 50px;
+    letter-spacing: 0.26em;
+}
+.menu1{
+    margin-left: 395px;
+    gap: 88px;
+}
+/*-------header конец-------*/
+
+
+
+/*-------НОВОСТИ начало-------*/
+.about_us .zag{
+    margin-top: 105px;
+    margin-left: 769px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 99px;
+    color: #393939;
+}
+.info{
+    display: flex;
+}
+.info .txt{
+    display: inline;
+    margin-left: 118px;
+    margin-top: 56px;
+}
+.info .text{
+    margin-top: 31px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 157.4%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    width: 1026px;
+}
+.wide, .every{
+    font-family: Playfair Display;
+    font-size: 32px;
+    line-height: 157.4%;
+    letter-spacing: 0.02em;
+}
+.info img{
+    margin-top: 87px;
+    margin-left: 143px;
+}
+
+
+
+.management .zag{
+    font-size: 32px;
+    font-family: Playfair_Display;
+    margin-top: 103px;
+    margin-left: 143px;
+}
+.leaders{
+    margin-top: 91px;
+    margin-left: 208px;
+    display: flex;
+    gap: 123px;
+}
+.leader{
+    display: inline;
+}
+.leader .name{
+    margin-top: 32px;
+    width: 284px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.phone1,.phone2,.phone3,.phone4{
+    margin-top: 12px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.phone1{ color: #F0689E;}
+.phone2{color: #B83E56;}
+.phone3{color: #9E0102;}
+.phone4{color: #B29680;}
+
+
+.contacts{
+    margin-top: 58px;
+    margin-left: 264px;
+}
+.contact .zag{
+    font-size: 28px;
+    font-family: Playfair_Display;
+    margin-top: 103px;
+    margin-left: 143px;
+}
+.contacts p{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+}
+.contacts span{
+    color: #F0689E;
+}
+
+/*-------подвал начало-------*/
+.footer{
+    height: 371px;
+    display: flex;
+    margin-top: 110px;
+    background: url(../img/footer.png) no-repeat;
+}
+.footer .text, .footer .text1{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.footer .text span, .footer .text1 span{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 108.3%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.footer .text{
+    width: 443px;
+}
+.footer .text1{
+    margin-top: 22px;
+    width: 464px;
+}
+.footer .txt{
+    padding-top: 82px;
+    margin-left: 219px;
+}
+.social{
+    margin-left: 588px;
+    margin-top: 82px;
+}
+.social p{
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.social .image{
+    margin-top: 31px;
+    display: flex;
+    gap: 57px;
+   justify-content: center;
+}
+/*-------подвал конец-------*/

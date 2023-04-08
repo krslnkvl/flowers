@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair_Display;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+.container{
+    max-width: 670px;
+    margin: auto;
+    margin-top: 250px;
+}
+body{
+    background: #F7F7F7;
+}
+ul{
+    padding: 0;
+    display: flex;
+    gap: 3px;
+}
+li{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 256px;
+    line-height: 108.3%;
+    letter-spacing: 0.04em;
+    color: #995B6F;
+    list-style-type: none;
+}
+li img{
+    margin-top: 26px;
+    width: 249px;
+    height: 225px;
+}
+.error p{
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 108.3%;
+    letter-spacing: 0.04em;
+    color: #995B6F;
+    width: 628px;
+}
+.error{
+    text-align: center;
+}

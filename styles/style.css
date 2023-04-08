@@ -1,0 +1,679 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair_Display;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    width: 100%;  
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/*-------header начало-------*/
+.header{
+    background: url(../img/header.png) no-repeat;
+    width: 100%;
+    height: 1024px;
+}
+.header .logo{
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 92px;
+}
+.header .logo .logo1{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.26em;
+}
+.header .logo .logo2{
+    font-family: Playfair_Display;
+    font-size: 32px;
+    color: white;
+    letter-spacing: 0.14em;
+}
+.header ul{
+    display: flex;
+    gap: 88px;
+    padding-top: 71px;
+}
+a{
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: 0.26em;
+    outline: none;
+    text-decoration: none;  
+}
+.header ul li{
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: 0.26em;
+}
+.header .zagl{
+    font-size: 96px;
+    color: white;
+    font-family: Playfair_Display;
+    margin-left: 444px;
+    width: 1063px;
+    text-align: center;
+    margin-top: 285px;
+    letter-spacing: 0.04em;
+}
+.zagl span{
+    font-size: 96px;
+    color: white;
+    letter-spacing: 0.26em;
+    font-family: Montserrat;
+    margin-left: 22px;
+}
+.header .button1{
+    margin-top: 28px;
+    font-family: Montserrat;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.26em;
+    background: white;
+    padding: 25px 42px;
+    margin-left: 794px;
+    width: 251px;
+}
+.menu, .menu1{
+    display: flex;
+}
+.menu1 .button{
+    margin-top: 47px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    padding: 25px 50px;
+    letter-spacing: 0.26em;
+}
+.menu1{
+    margin-left: 395px;
+    gap: 88px;
+}
+/*-------header конец-------*/
+
+
+/*-------товары начало-------*/
+.goods .zag{
+    font-size: 32px;
+    font-family: Playfair_Display;
+    margin-top: 103px;
+    margin-left: 143px;
+}
+.goods .goods1{
+    margin-top: 57px;
+    padding-left: 143px;
+    display: flex;
+    gap: 80px;
+}
+.goods1 .g1 .name,.goods1 .g2 .name,.goods1 .g3 .name{
+    margin-top: 24px;
+    font-size: 32px;
+    font-family: Montserrat;
+}
+.goods1 .g1 .price,.goods1 .g2 .price,.goods1 .g3 .price{
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: Montserrat;
+}
+/*-------товары конец-------*/
+
+
+/*-------наша миссия начало-------*/
+.mission{
+    margin-top: 135px;
+    display: flex;
+}
+.mission .block1{
+    width: 1203px;
+    background: #E7E7E7;
+}
+.mission .block1 .zag{
+    font-size: 96px;
+    font-family: Playfair_Display;
+    letter-spacing: 0.04em;
+    color: #1C1C1C;
+    text-align: center;
+    width: 447px;
+    padding-top: 172px;
+    padding-left: 378px;
+    line-height: 108.3%;
+}
+.mission .block1 .text{
+    padding-top: 61px;
+    font-size: 32px;
+    font-family: Montserrat;
+    letter-spacing: 0.02em;
+    padding-left: 349px;
+    text-align: center;
+    width: 505px;
+}
+/*-------наша миссия конец-------*/
+
+
+/*-------доставка начало-------*/
+.delivery .zag{
+    font-size: 32px;
+    font-family: Playfair_Display;
+    margin-top: 103px;
+    margin-left: 143px;
+}
+.delivery .text, .delivery .text1{
+    margin-top: 65px;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    font-family: Montserrat;
+    color: #393939;
+}
+.delivery .text span, .delivery .text1 span{
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    font-family: Montserrat;
+    color: #393939;
+    font-weight: 600;
+}
+.delivery .sep{
+    font-size: 96px;
+    color: #393939;
+}
+.var{
+    display: flex;
+    gap: 105px;
+    margin-left: 489px;
+}
+.delivery .text{
+    width: 396px;
+}
+.delivery .text1{
+    width: 506px;
+} 
+/*-------доставка конец-------*/
+
+
+/*-------форма заявки начало-------*/
+.application{
+    margin-top: 157px;
+    display: flex;
+}
+.application .application1{
+    background: #F1EAEA;
+}
+.application1 .zag{
+    font-family: Playfair_Display;
+    font-size: 48px;
+    line-height: 108.3%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #1C1C1C;
+    margin: 78px 274px 44px 274px;
+}
+.application1 .text{
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+.application1 .form{
+    margin-left: 237px;
+}
+.form .square{
+    margin-top: 23px;
+    margin-bottom: 23px;
+    width: 680px;
+    height: 91px;
+    background: #F6F6F6;
+    border-radius: 10px;
+}
+.form .button{
+    font-size: 32px;
+    font-family: Montserrat;
+    letter-spacing: 0.02em;
+    color: white;
+    background: #B17979;
+    border-radius: 10px;
+    width: 290px;
+    padding: 26px 197px;
+    margin-top: 44px;
+}
+/*-------форма заявки конец-------*/
+
+
+/*-------отзывы начало-------*/
+.reviews .zag{
+    font-size: 32px;
+    font-family: Playfair_Display;
+    margin-top: 103px;
+    margin-left: 143px;
+}
+.review, .review2{
+    display: flex;
+    margin-left: 317px;
+    margin-top: 87px;
+}
+.review img, .review2 img{
+    width: 134px;
+    height: 134px;
+    padding: 39px 143px 39px 0px;
+}
+.review p, .review2 p{
+    font-family: Montserrat;
+    font-size: 32px;
+    line-height: 108.3%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    background: #F1EAEA;
+    border-radius: 30px;
+    padding: 57px 65px;
+    width: 806px;
+}
+.review .i1{
+    margin-left: 142px;
+}
+.reviews .button{
+    font-size: 32px;
+    font-family: Montserrat;
+    letter-spacing: 0.02em;
+    color: white;
+    background: #787878;
+    border-radius: 10px;
+    width: 290px;
+    padding: 26px 197px;
+    margin-top: 144px;
+    margin-left: 620px;
+}
+/*-------отзывы конец-------*/
+
+
+
+/*-------подвал начало-------*/
+.footer{
+    height: 371px;
+    display: flex;
+    margin-top: 219px;
+    background: url(../img/footer.png) no-repeat;
+}
+.footer .text, .footer .text1{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.footer .text span, .footer .text1 span{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 108.3%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.footer .text{
+    width: 443px;
+}
+.footer .text1{
+    margin-top: 22px;
+    width: 464px;
+}
+.footer .txt{
+    padding-top: 82px;
+    margin-left: 219px;
+}
+.social{
+    margin-left: 588px;
+    margin-top: 82px;
+}
+.social p{
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.social .image{
+    margin-top: 31px;
+    display: flex;
+    gap: 57px;
+   justify-content: center;
+}
+/*-------подвал конец-------*/
+
+/*-------планшетная версия начало-------*/
+@media (max-width:1280px)  {
+    .header{
+        background: url(img/header1.png) no-repeat;
+        width: 1280px;
+        height: 683px;
+    }
+    .header .button{
+        display: none;
+    }
+    .menu1{
+        margin-left: 209px;
+    }
+    .header .zagl{
+        font-size: 86px;
+        margin-left: 107px;
+        margin-top: 104px;
+    }
+    .zagl span{
+        font-size: 86px;
+    }
+    .header .button1{
+        margin-top: 64px;
+        margin-left: 494px;
+        width: 251px;
+    }
+    .g3{
+        display: none;
+    }
+    .mission img{
+        display: none;
+    }
+    .mission .block1{
+        width: 1280px;
+        height: 635px;
+    }
+    .mission .block1 .zag{
+        padding-left: 411px;
+    }
+    .mission .block1 .text{
+        padding-left: 318px;
+        width: 643px;
+    }
+    .delivery .zag{
+        margin-left: 121px;
+    } 
+    .delivery .text, .delivery .text1{
+        font-size: 26px;
+    }
+    .delivery .text span, .delivery .text1 span{
+        font-size: 26px;
+    }
+    .var{
+        margin-left: 182px;
+        gap: 133px;
+    } 
+    .delivery .text{
+        width: 310px;
+    }
+    .delivery .text1{
+        width: 438px;
+    } 
+    .application{
+        width: 1280px;
+        height: 782px;  
+    }
+    .application1 .form{
+        margin-left: 304px;
+    }
+    .application img{
+        display: none;
+    }
+    .reviews .zag{
+        margin-left: 121px;
+    }
+    .review, .review2{
+        margin-left: 124px;
+        margin-top: 89px;
+    }
+    .review img, .review2 img{
+        padding: 39px 78px 39px 0px;
+    }
+    .review p, .review2 p{
+        padding: 42px 44px;
+        width: 742px;
+    }
+    .footer{
+        background: url(img/footer1.png) no-repeat;
+    }
+    .footer .text, .footer .text1{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .footer .text span, .footer .text1 span{
+        font-size: 24px;
+    }
+    .footer .text{
+        width: 113px;
+    }
+    .footer .text1{
+        margin-top: 32px;
+        width: 347px;
+    }
+    .footer .txt{
+        padding-top: 75px;
+        margin-left: 159px;
+    }
+    .social{
+        margin-left: 331px;
+        margin-top: 75px;
+    }
+    .social p{
+        font-size: 24px;
+    }
+    .social .image{
+        gap: 48px;
+    }
+    .social .image img{
+        width: 50px;
+        height: 50px;
+    }
+}
+/*-------планшетная версия конец-------*/
+
+/*-------мрбильная версия начало-------*/
+@media (max-width:720px){
+    .header{
+        background: url(img/header2.png) no-repeat;
+        width: 720px;
+        height: 845px;
+    }
+    .header .logo{
+        display: none;
+    }
+    .header .button{
+        display: none;
+    }
+    .menu1{
+        display: none;
+    }
+    .header .zagl{
+        width: 669px;
+        font-size: 60px;
+        margin-left: 35px;
+        margin-top: 300px;
+    }
+    .zagl span{
+        margin-left: 0px;
+        font-size: 60px;
+    }
+    .header .button1{
+        font-size: 16px;
+        margin-top: 70px;
+        margin-left: 210px;
+        width: 251px;
+    }
+    .goods .zag{
+        font-size: 64px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .g1{
+        display: none;
+    }
+    .goods .goods1 {
+        margin-top: 53px;
+        padding-left: 106px;
+    }
+    .g3{
+        display: none;
+    }
+    .mission img{
+        display: none;
+    }
+    .mission .block1{
+        width: 720px;
+        height: 461px;
+    }
+    .mission .block1 .zag{
+        padding-top: 110px;
+        padding-left: 123px;
+    }
+    .mission .zag span{
+        display: none;
+    }
+    .mission .block1 .text{
+        padding-top: 50px;
+        font-size: 24px;
+        padding-left: 170px;
+        width: 382px;
+    }
+    .delivery .zag{
+        margin-left: 0px;
+        font-size: 64px;
+        text-align: center;
+    } 
+    .delivery .zag span{
+        display: none;
+    }
+    .delivery .text, .delivery .text1{
+        font-size: 26px;
+    }
+    .delivery .text span, .delivery .text1 span{
+        font-size: 26px;
+    }
+    .var{
+        text-align: center;
+        display: inline;
+        margin-left: 182px;
+        gap: 54px;
+    } 
+    .delivery .sep{
+        font-size: 84px;
+    }
+    .delivery .text{
+        margin-top: 47px;
+        margin-left: 190px;
+        width: 310px;
+    }
+    .delivery .text1{
+        margin-top: 32px;
+        margin-left: 182px;
+        text-align: center;
+        width: 355px;
+    } 
+    .application{
+        width: 720px;
+        height: 861px;  
+    }
+    .application1 .form{
+        margin-left: 0px;
+    }
+    .application1 .zag{
+        width: 484px;
+        text-align: center;
+        font-size: 64px;
+        margin: 66px 117px 44px 117px;
+    }
+    .application img{
+        display: none;
+    }
+    .form {
+        margin-left: 117px;
+    }
+    .form .text{
+        text-align: center;
+    }
+    .form .square {
+        margin-left: 117px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+        width: 501px;
+        height: 91px;
+        border-radius: 10px;
+    }
+    .form .button {
+        width: 284px;
+        margin-left: 117px;
+        padding: 26px 108px;
+        margin-top: 44px;
+    }
+
+    .reviews .zag{
+        margin-left: 0px;
+        font-size: 64px;
+        text-align: center;
+    }
+    .reviews .zag span{
+        display: none;
+    }
+    .review{
+        margin-left: 66px;
+        margin-top: 89px;
+    }
+    .review img{
+        width: 88px;
+        height: 88px;
+        padding: 39px 37px 39px 0px;
+    }
+    .review p{
+        font-size: 24px;
+        padding: 30px 42px;
+        width: 409px;
+    }
+    .review2{
+        display: none;
+    }
+    .review .i1{
+        margin-left: 61px;
+    }
+    .footer{
+        margin-top: 80px;
+        background: url(img/footer2.png) no-repeat;
+    }
+    .footer .txt{
+        padding-top: 40px;
+        margin-left: 61px;
+    }
+    .footer .text, .footer .text1{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .footer .text span, .footer .text1 span{
+        font-size: 20px;
+    }
+    .footer .text1{
+        margin-top: 10px;
+        width: 289px;
+    }
+    .social{
+        margin-left: 48px;
+        margin-top: 40px;
+    }
+    .social p{
+        font-size: 20px;
+    }
+    .social .image{
+        gap: 41px;
+    }
+    .social .image img{
+        width: 40px;
+        height: 40px;
+    }
+}
+/*-------мрбильная версия конец-------*/

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://flowers/news.html</loc>
+        <lastmod>2023-03-06T23:16:13+04:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://flowers/news1.html</loc>
+        <lastmod>2023-03-05T23:21:13+04:00</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://flowers/news2.html</loc>
+        <lastmod>2023-03-05T23:14:13+04:00</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://flowers/news3.html</loc>
+        <lastmod>2023-04-08T23:14:13+04:00</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://flowers/news4.html</loc>
+        <lastmod>2023-04-08T23:14:13+04:00</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://flowers/index.html</loc>
+        <lastmod>2023-03-05T23:16:13+04:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://flowers/about_us.html</loc>
+        <lastmod>2023-03-05T23:21:13+04:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
+
